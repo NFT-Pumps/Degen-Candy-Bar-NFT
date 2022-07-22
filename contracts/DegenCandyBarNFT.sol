@@ -34,7 +34,7 @@ contract DegenCandyBarNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter 
     uint256 public constant MAX_TOKENS = 10000;
     uint256 public publicMintMaxLimit = 50;
     uint256 public whitelistMintMaxLimit = 50;
-    uint256 public tokenPrice = 0.032 ether;
+    uint256 public tokenPrice = 0.04 ether;
     uint256 public whitelistTokenPrice = 0.00 ether;
     uint256 public maxWhitelistPassMints = 5000;
 

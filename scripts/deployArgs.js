@@ -8,19 +8,19 @@ module.exports = [
     'https://public-pre-ipfs.s3.amazonaws.com/Sloth_Club_NFT/json/',
 
     [
-        ethers.utils.getAddress('0xB784269721dA07b7BABEbC9db30c0d982B1f0964'),
-        ethers.utils.getAddress('0x26E5cBCae6F24264Afb50f603C18c9Ea84C4a5e6'),
-        ethers.utils.getAddress('0xaDB9DEC1a42037310A1Af0F335e43F8303246376'),
-        ethers.utils.getAddress('0xb7be001B3f1ed0191E86bde87394e72d28C5B8D7'),
-        ethers.utils.getAddress('0xc1Dc9C590Af6745d99767BfA94d0e8718E9BBF69'),
+        ethers.utils.getAddress('0x0535a5Bc294B5b5De4b30A542DF155061EC3346D'),
+        ethers.utils.getAddress('0xC856CeB4Bc2563675046e6719b8eBAbbEB80570B'),
+        ethers.utils.getAddress('0x994f3F8566bBFB686124FC64877b3080DE95d7F1'),
+        ethers.utils.getAddress('0xe7A0Ae9da14e257B7445CB4B6602DE9D8f7Bc6F1'),
+        ethers.utils.getAddress('0x76a9F36b8627EcAfbF182F6B63187FC0661aC361'),
         ethers.utils.getAddress('0x8912e40d291693C7A86C418D52b46766780C6989')
     ],
     [
-        40,
+        56,
         10,
+        4,
+        15,
         5,
-        5,
-        20,
-        20
+        10
     ]
 ]
