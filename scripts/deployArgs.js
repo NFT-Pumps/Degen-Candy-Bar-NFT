@@ -1,5 +1,5 @@
 module.exports = [
- 'DegenCandy NFT',
+ 'Degen Candy NFT',
  'DCNFT',
  
     '0x9C3f261e2cc4C88DfaC56A5B46cdbf767eE2f231',
