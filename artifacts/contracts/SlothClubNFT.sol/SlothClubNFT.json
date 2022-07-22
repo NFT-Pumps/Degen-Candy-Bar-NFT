@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "SlothClubNFT",
-  "sourceName": "contracts/SlothClubNFT.sol",
+  "contractName": "DegenCandyBarNFT",
+  "sourceName": "contracts/DegenCandyBarNFT.sol",
   "abi": [
     {
       "inputs": [
@@ -1082,7 +1082,7 @@
               "type": "uint8"
             }
           ],
-          "internalType": "struct SlothClubNFT.WhitelistClaimPass",
+          "internalType": "struct DegenCandyBarNFT.WhitelistClaimPass",
           "name": "whitelistClaimPass",
           "type": "tuple"
         }

@@ -14,7 +14,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/finance/PaymentSplitter.sol";
 
 
-contract SlothClubNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
+contract DegenCandyBarNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
     using Counters for Counters.Counter;
     using ECDSA for bytes32;
     using Strings for uint256;
@@ -34,8 +34,8 @@ contract SlothClubNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
     uint256 public constant MAX_TOKENS = 10000;
     uint256 public publicMintMaxLimit = 50;
     uint256 public whitelistMintMaxLimit = 50;
-    uint256 public tokenPrice = 0.1 ether;
-    uint256 public whitelistTokenPrice = 0.06 ether;
+    uint256 public tokenPrice = 0.032 ether;
+    uint256 public whitelistTokenPrice = 0.00 ether;
     uint256 public maxWhitelistPassMints = 5000;
 
     bool public publicMintIsOpen = false;
